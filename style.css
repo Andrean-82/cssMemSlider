@@ -91,10 +91,11 @@ label:hover{
     }
 label:hover .span{
     background: rgb(237, 111, 111);
+    border: 0.1875rem solid rgb(100, 46, 46);
     } 
 label:active .span{
     background: rgb(193, 188, 188);
-    } 
+    }
 .span{
     display: block;
     height: 0.8rem;
