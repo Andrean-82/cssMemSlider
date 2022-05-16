@@ -198,5 +198,19 @@ label:active .span{
     #four:checked ~ .T > .text-content > .content3{
         opacity: 0;
         }
-
-
+@media screen and (max-width:767px){
+    .wrapper{
+        display: flex;
+        row-gap: 1rem;
+        flex-direction: column;
+    }    
+    .T{
+        flex-direction: column-reverse;
+        row-gap: 1rem;
+        align-items: center;
+    }
+    .T .text-content{       
+        align-self: start;     
+    }    
+}
+  

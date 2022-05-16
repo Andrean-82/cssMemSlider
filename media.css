@@ -1,0 +1,15 @@
+@media screen and (max-width:767px){
+    .wrapper{
+        display: flex;
+        row-gap: 16px;
+        flex-direction: column;
+    }
+    .T{
+        flex-direction: column-reverse;
+        row-gap: 16px;
+        align-items: center;
+    }
+    .T .text-content{       
+        align-self: start;     
+    }  
+}
