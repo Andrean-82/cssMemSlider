@@ -8,18 +8,19 @@ body{
     }
 .start{
     margin: 20vh auto;
-    width: 68.75rem;    
+    width: 100%; 
     background-color: rgb(245, 199, 199);
     overflow: hidden;
     border-radius: 5px;
     }
 .wrapper{
     margin:auto;
-    width: 43.75rem;
+    width: 41vw;    
     background-color: rgb(245, 199, 199);
     }
 .slider{
-    display: grid;    
+    display: grid;
+        
     }
 .slider1{
     grid-area: slider1;
@@ -37,8 +38,9 @@ body{
     grid-area: slider4;
     opacity: 0;    
     }
-img{
-    width: 43.75rem;
+
+img{    
+    width: 100%;
     border-radius: 1.25rem;
     box-shadow:  0 0 30px rgba(0,0,0,0.8);
     }
