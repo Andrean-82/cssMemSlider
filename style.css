@@ -106,48 +106,48 @@ label:active .span{
 #four:checked ~ .T > .controls > .wrapper-control > label:nth-of-type(4) > .span{
 	background: white;
     }
-#one:checked ~ .slider > .slide1{
+#one:checked ~ .slider > .slider1{
 	opacity: 1;
 	z-index: 1;
 	transform:rotate(360deg);
     transition: transform ease-in-out 0.7s, opacity ease-in-out 0.7s;    
     }
-    #one:checked ~ .slider > .slide2,
-    #one:checked ~ .slider > .slide3,
-    #one:checked ~ .slider > .slide4{
+    #one:checked ~ .slider > .slider2,
+    #one:checked ~ .slider > .slider3,
+    #one:checked ~ .slider > .slider4{
         opacity: 0;
         }
-#two:checked ~ .slider > .slide2{
+#two:checked ~ .slider > .slider2{
 	opacity: 1;
 	z-index: 1;
 	transform:rotate(360deg);
     transition: transform ease-in-out 0.7s, opacity ease-in-out 0.7s;
     }
-    #two:checked ~ .slider > .slide1,
-    #two:checked ~ .slider > .slide3,
-    #two:checked ~ .slider > .slide4{
+    #two:checked ~ .slider > .slider1,
+    #two:checked ~ .slider > .slider3,
+    #two:checked ~ .slider > .slider4{
         opacity: 0;
         }
-#three:checked ~ .slider > .slide3{
+#three:checked ~ .slider > .slider3{
 	opacity: 1;
 	z-index: 1;
 	transform:rotate(360deg);
     transition: transform ease-in-out 0.7s, opacity ease-in-out 0.7s;
     }
-    #three:checked ~ .slider > .slide1,
-    #three:checked ~ .slider > .slide2,
-    #three:checked ~ .slider > .slide4{
+    #three:checked ~ .slider > .slider1,
+    #three:checked ~ .slider > .slider2,
+    #three:checked ~ .slider > .slider4{
         opacity: 0;
         }   
-#four:checked ~ .slider > .slide4{
+#four:checked ~ .slider > .slider4{
 	opacity: 1;
 	z-index: 1;
 	transform:rotate(360deg);
     transition: transform ease-in-out 0.7s, opacity ease-in-out 0.7s;
     }
-    #four:checked ~ .slider > .slide1,
-    #four:checked ~ .slider > .slide2,
-    #four:checked ~ .slider > .slide3{
+    #four:checked ~ .slider > .slider1,
+    #four:checked ~ .slider > .slider2,
+    #four:checked ~ .slider > .slider3{
         opacity: 0;
         }
 #one:checked ~ .T > .text-content > .content1{
